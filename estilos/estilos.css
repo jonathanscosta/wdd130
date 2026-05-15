@@ -3,9 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+main{
+    max-width: 840px;
+}
 
-
-
+aside{
+    width: 250px;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    background-color: rgb(212, 211, 211);
+    color: rgb(73, 73, 73);
+    text-align: center;
+}
 nav{
     background-color: darkblue;
     padding: 10px;
@@ -24,6 +34,10 @@ main img{
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+}
+aside img{
+    width: 200px;
+    height: auto;
 }
 p{
     padding: 0;

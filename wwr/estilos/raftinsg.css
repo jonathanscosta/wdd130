@@ -65,7 +65,7 @@ nav,p,section,article {
     display: block;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -84,7 +84,7 @@ border: 1px solid var(--marron-rocha);
 box-shadow: 2px 2px 10px var(--marron-rocha);
 }
 
-article {
+.hero article {
     background-color: var(--azul-claro);
     position: absolute;
     top: 360px;

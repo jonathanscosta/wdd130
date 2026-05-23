@@ -1,0 +1,56 @@
+:root {
+--azul-principal: rgb(64, 140, 147);
+--azul-claro: rgb(127, 183, 188);
+--verde-escuro-natural: rgb(37, 50, 40);
+--marron-rocha: rgb(108, 101, 70);
+--branco-rio: rgb(209, 224, 226);
+--bege-pedra: rgb(167, 152, 131);
+--vermelho-colete:rgb(180, 52, 45);
+--fonte-titulos: "Times New Roman", "Georgia",serif;
+--fonte-body: Arial,Helvetica,sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--azul-principal);
+    font-family: var(--fonte-body);
+    color: var(--branco-rio);
+}
+
+header a {
+    color: var(--branco-rio);
+    font-family: var(--fonte-body);
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--fonte-body);
+    color: var(--verde-escuro-natural);
+    background-color: var(--branco-rio);
+}
+
+h1,h2 {
+
+    font-family: var(--fonte-titulos);
+    color: var(--verde-escuro-natural);
+    text-align: center;
+}
+
+header,main,footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+nav,p,section,article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.redes-sociais a{
+    text-decoration: none;
+}

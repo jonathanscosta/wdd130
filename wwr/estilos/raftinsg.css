@@ -94,4 +94,6 @@ box-shadow: 2px 2px 10px var(--marron-rocha);
 footer {
     text-align: center;
 }
-
+.socialmedia {
+    text-decoration: none;
+}

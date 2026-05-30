@@ -80,6 +80,7 @@ footer{
     padding: 10px;
     background-color: rgb(212, 211, 211);
     color: rgb(33, 33, 33);
+    list-style-position: inside;
 }
 header,footer, .grid {
     max-width: 840px;

@@ -156,31 +156,24 @@ grid-column: 1/4;
 
 footer {
     text-align: center;
-   
   
 }
 
 .socialmedia{
-    display: flex;
-    background-color: var(--secundary-color);
-    font-family: var(--fonte-body);
-    color: var(--verde-escuro-natural);
-    font-size: 16px;
+      display: flex;
       
 }
 .socialmedia a {
     text-decoration: none;
-    padding-right: 0;
 }
 
 .socialmedia img {
     width: 50px;
     height: 50px;
-    margin: 5px;
+    margin: 10px;
 }
 .socialmedia p {
     font-size: 25px;
     font-family: var(--fonte-titulos);
-    text-align: center;
 }
 /* fim footer e socialmedia */

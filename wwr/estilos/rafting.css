@@ -1,8 +1,6 @@
 :root {
---primary-color: rgb(64, 140, 147);
 --secundary-color: rgb(127, 183, 188);
 --verde-escuro-natural: rgb(37, 50, 40);
---marron-rocha: rgb(108, 101, 70);
 --branco-rio: rgb(209, 224, 226);
 --fonte-titulos: "Times New Roman", "Georgia",serif;
 --fonte-body: Arial,Helvetica,sans-serif;
@@ -99,14 +97,14 @@ nav,p,section,article {
     opacity: 0.7;
     background-color: var(--secundary-color);
     color: var(--verde-escuro-natural);
-    border: 1px solid var(--marron-rocha);
+    border: 1px solid var(--verde-escuro-natural);
 }
 .hero article img {
 
 width: 125px;
 float: right;
-border: 1px solid var(--marron-rocha);
-box-shadow: 2px 2px 10px var(--marron-rocha);
+border: 1px solid var(--verde-escuro-natural);
+box-shadow: 2px 2px 10px var(--verde-escuro-natural);
 }
 
 .hero article {

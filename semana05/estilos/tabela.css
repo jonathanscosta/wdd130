@@ -1,0 +1,15 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid rgb(80, 79, 79);
+    padding: 10px;
+}
+
+thead, tfoot{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}

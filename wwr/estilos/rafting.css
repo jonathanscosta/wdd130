@@ -273,6 +273,11 @@ footer {
     font-size: 25px;
     font-family: var(--fonte-titulos);
 }
+footer h3 {
+     font-size: 25px;
+    font-family: var(--fonte-titulos);
+    margin: auto;
+}
 .direitos {
     font-family: var(--fonte-titulos);
     font-size: 20px;

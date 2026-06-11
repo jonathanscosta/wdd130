@@ -82,7 +82,15 @@ nav,p,section,article {
 .hero {
     position: relative;
 }
+.hero-index {
+    position: relative;
+}
 .hero img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.hero-index img {
     width: 100%;
     height: auto;
     display: block;
@@ -98,6 +106,54 @@ nav,p,section,article {
     background-color: var(--secundary-color);
     color: var(--verde-escuro-natural);
     border: 1px solid var(--verde-escuro-natural);
+}
+.hero-index h1 {
+    position: absolute;
+    top: 20px;
+    left: 1px;
+    text-shadow: 1px 1px 8px black;
+    padding: 16px;
+    text-align: center;
+    font-size: 35px;
+    
+    
+    color: yellow;
+
+}
+.hero-index h2 {
+    position: absolute;
+    top: 50px;
+    left: 1px;
+    text-shadow: 1px 1px 8px black;
+    padding: 16px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.hero-index .btn {
+    position: absolute;
+    left: 10px;
+    top: 350px;
+    padding: 10px;
+    background-color: yellow;
+    font-size: 16px;
+    border-radius: 5px;
+    color: black;
+    border: none;
+    box-shadow: 2px 2px 4px black;
+    text-decoration: none;
+}
+.hero-index .info {
+    position: absolute;
+    top: 450px;
+    left: 15%;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+    color: black;
 }
 .hero article img {
 

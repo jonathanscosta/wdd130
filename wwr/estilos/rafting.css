@@ -196,9 +196,13 @@ nav,p,section,article {
 }
 .artigo h2 {
     font-size: 35px;
-    text-shadow: 2px 2px 4px yellow;
-    color: black;
+    text-shadow: 2px 2px 4px black;
+    color: yellow;
+    width: 150px;
     
+}
+.artigo .video {
+    width: 100%;
 }
 .hero article img {
 

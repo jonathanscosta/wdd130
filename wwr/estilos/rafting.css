@@ -411,23 +411,8 @@ form input[type="text"], form input[type="email"], form textarea {
     margin-bottom: 30px;
     font-size: 32px;
 }
-.chamada{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.chamada .btn {
-   
-    padding: 10px 20px;
-    background-color: yellow;
-    font-size: 16px;
-    border-radius: 5px;
-    color: black;
-    border: none;
-    box-shadow: 2px 2px 4px black;
-    text-decoration: none;
-   
-}
+
+
 
 .cards-depoimentos {
     display: grid;
@@ -477,6 +462,72 @@ form input[type="text"], form input[type="email"], form textarea {
     font-size: 18px;
     font-weight: bold;
 }
+.chamada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.chamada form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.chamada button {
+    background-color: rgb(142, 202, 142);
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.chamada .btn {
+     padding: 10px;
+    background-color: yellow;
+    font-size: 16px;
+    border-radius: 5px;
+    color: black;
+    border: none;
+    box-shadow: 2px 2px 4px black;
+    text-decoration: none;
+}
+.tabela-passeios {
+    margin: 50px 0;
+}
+
+.tabela-passeios h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.tabela-passeios table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tabela-passeios th {
+    background-color: var(--secundary-color);
+    color: var(--verde-escuro-natural);
+    padding: 15px;
+    font-family: var(--fonte-titulos);
+    font-size: 18px;
+}
+
+.tabela-passeios td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid rgba(37, 50, 40, 0.15);
+}
+
+.tabela-passeios tbody tr:nth-child(even) {
+    background-color: rgba(127, 183, 188, 0.12);
+}
+
+
 
 
 /* fim main hero history e article */
